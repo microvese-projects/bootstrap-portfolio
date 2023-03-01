@@ -30,9 +30,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Portfolio <a name="about-project"></a>
+# 📖 Bootstrap Portfolio <a name="about-project"></a>
 
-**Portfolio** is a project that was created to showcase my projects and capabilities to handle development tasks.
+**Bootstrap Portfolio** is a project that was created as practice for the bootstrap framework with minimal to no traditional css.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -53,16 +53,6 @@ This section provides information about my capabilities in terms of skills, lang
 - **[Contact]**
 This section provides inputs for users to leave messages to the owner of the website.
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://microvese-projects.github.io/Portfolio/#contact)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -87,7 +77,7 @@ Example commands:
 ```sh
   mkdir my-folder
   cd my-folder
-  git clone git@github.com:microvese-projects/Portfolio.git
+  git clone git@github.com:microvese-projects/bootstrap-portfolio.git
 ```
 -
 
@@ -150,12 +140,13 @@ If you like this project, you can show your support by giving this project's rep
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank Microverse for the outstanding collection of information they have provided that enabled me to create the project.
+Special thanks also go out to [Prince Nwuke](https://github.com/prius2055) who contributed to this project.
 
 
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/microvese-projects/Portfolio/blob/34cdc02fb58baf920500a4210907c0d03ef488f4/LICENSE.md) licensed.
+This project is [MIT]() licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
