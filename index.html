@@ -36,16 +36,16 @@
     <nav class="navbar navbar-expand-sm bg-secondary">
       <div class="container">
         <!-- nav links -->
-        <a href="#" class="navbar-brand text-light"> Bennyjoez </a>
+        <a href="#hero" class="navbar-brand text-light"> Bennyjoez </a>
         <ul class="navbar-nav d-flex">
           <li class="nav-item">
-            <a href="#" class="nav-link text-light"> Portfolio </a>
+            <a href="#work-section" class="nav-link text-light"> Portfolio </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link text-light"> About </a>
+            <a href="#about-me" class="nav-link text-light"> About </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link text-light"> Contact </a>
+            <a href="#contact" class="nav-link text-light"> Contact </a>
           </li>
           <li class="nav-item">
             <a href="#" class="nav-link text-light">
@@ -58,6 +58,7 @@
     <!-- hero section -->
     <div
       class="container-fluid bg-dark text-light p-4 d-flex vh-100 hero overflow-hidden"
+      id="hero"
     >
       <ul class="nav flex-column justify-content-center">
         <li class="nav-link">
@@ -100,7 +101,7 @@
       </div>
     </div>
     <!-- work section -->
-    <section class="container-sm container-md mt-5 mb-2">
+    <div class="container-sm container-md mt-5 mb-2" id="work-section">
       <h2 class="projects-title">My Recent Works</h2>
       <div class="mt-5 mb-2">
         <!-- active card -->
@@ -248,10 +249,10 @@
           </div>
         </div>
       </div>
-    </section>
+    </div>
 
-    <!-- about me -->
-    <div class="container-fluid bg-dark overflow-hidden">
+    <!-- about me section-->
+    <div class="container-fluid bg-dark overflow-hidden" id="about-me">
       <!-- about me text -->
       <div class="container-fluid ms-5 p-5 about-me-intro border-bottom">
         <h2 class="text-warning display-3 mt-5">About me</h2>
@@ -295,7 +296,8 @@
       </div>
     </div>
 
-    <section class="container my-0 pe-0 py-0 vh-100 d-flex align-items-center">
+    <!-- contact section -->
+    <section class="container my-0 pe-0 py-0 vh-100 d-flex align-items-center" id="contact">
       <div class="d-flex">
         <p class="me-5 fs-3 fw-bold col-5">
           I'm always interested in hearing about new projects, so if you'd like
