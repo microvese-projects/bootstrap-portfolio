@@ -4,13 +4,14 @@
   box-sizing: border-box;
 }
 
-nav {
-  height: 50px;
+.hero {
+  background-image: url("./images/headlline-blob.svg");
+  background-repeat: no-repeat;
+  background-position: 70vw;
 }
 
-.hero {
-  height: calc(100vh - 50px);
-  background-image: url("./images/headlline-blob.svg");
+.about-me-intro {
+  background-image: url("./images/about-me.svg");
   background-repeat: no-repeat;
   background-position: 70vw;
 }
