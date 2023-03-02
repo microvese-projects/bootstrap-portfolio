@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- local css -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- bootstrap css cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- bootstrap script cdn -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Bootstrap Portfolio</title>
+  </head>
+  <body class="mw-100">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-sm bg-secondary">
+      <div class="container">
+        <!-- nav links -->
+        <a href="#hero" class="navbar-brand text-light"> Bennyjoez </a>
+        <ul class="navbar-nav d-flex">
+          <li class="nav-item">
+            <a href="#work-section" class="nav-link text-light"> Portfolio </a>
+          </li>
+          <li class="nav-item">
+            <a href="#about-me" class="nav-link text-light"> About </a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link text-light"> Contact </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link text-light">
+              <i class="fa-regular fa-envelope"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- hero section -->
+    <div
+      class="container-fluid bg-dark text-light p-4 d-flex vh-100 hero overflow-hidden"
+      id="hero"
+    >
+      <ul class="nav flex-column justify-content-center">
+        <li class="nav-link">
+          <a href="#">
+            <img src="./images/github.svg" alt="github" />
+          </a>
+        </li>
+        <li class="nav-link">
+          <a href="#">
+            <img src="./images/Linkedinicon.svg" alt="LinkedIn" />
+          </a>
+        </li>
+        <li class="nav-link">
+          <a href="#">
+            <img src="./images/angelist.svg" alt="Angelist" />
+          </a>
+        </li>
+        <li class="nav-link">
+          <a href="#">
+            <img src="./images/twitter.svg" alt="Twitter" />
+          </a>
+        </li>
+        <li class="nav-link">
+          <a href="#">
+            <img src="./images/medium.svg" alt="Medium" />
+          </a>
+        </li>
+      </ul>
+      <div class="col-5 d-flex flex-column h-100 justify-content-center ms-5">
+        <h1 class="text-warning display-3">
+          Hey There. <br />
+          I’m Benson
+        </h1>
+        <h2 class="h2">I’m a Software Developer</h2>
+        <p class="fs-5">
+          I can help you build a product , feature or website. Look through some
+          of my work and experience! If you like what you see and have a project
+          you need coded, don’t hesitate to contact me.
+        </p>
+      </div>
+    </div>
+    <!-- work section -->
+    <div class="container-sm container-md mt-5 mb-2" id="work-section">
+      <h2 class="projects-title">My Recent Works</h2>
+      <div class="mt-5 mb-2">
+        <!-- active card -->
+        <div class="d-flex mb-4">
+          <img src="./images/multi-post-stories.png" alt="Multi Post Stories" />
+          <div class="ms-5">
+            <h3 class="project-card-heading">Multi-Post Stories</h3>
+            <p class="project-card-description">
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required. has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a standard
+              dummy text.
+            </p>
+            <ul class="skills d-flex ps-0">
+              <li class="btn btn-outline-secondary disabled me-2">css</li>
+              <li class="btn btn-outline-secondary disabled me-2">html</li>
+              <li class="btn btn-outline-secondary disabled me-2">bootstrap</li>
+              <li class="btn btn-outline-secondary disabled me-2">Ruby</li>
+            </ul>
+            <button type="button" class="btn btn-warning">See Project</button>
+          </div>
+        </div>
+        <!-- inactive cards -->
+        <div class="inactive-cards-container d-flex justify-content-between flex-wrap gx-5">
+          <div class="card project-card p-3 text-light h-100 mb-3">
+            <h3 class="project-card-heading mt-5 pt-5">
+              Professional Art Printing Data
+            </h3>
+            <p class="project-card-description">
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required. has been the industry's standard
+            </p>
+            <ul class="skills d-flex ps-0">
+              <li class="border border-1 px-1 me-2">html</li>
+              <li class="border border-1 px-1 me-2">bootstrap</li>
+              <li class="border border-1 px-1">Ruby</li>
+            </ul>
+            <button type="button" class="see-project d-none">See Project</button>
+          </div>
+          <div class="card project-card p-3 text-light h-100 mb-3">
+            <h3 class="project-card-heading mt-5 pt-5">
+              Professional Art Printing Data
+            </h3>
+            <p class="project-card-description">
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required. has been the industry's standard
+            </p>
+            <ul class="skills d-flex ps-0">
+              <li class="border border-1 px-1 me-2">html</li>
+              <li class="border border-1 px-1 me-2">bootstrap</li>
+              <li class="border border-1 px-1">Ruby</li>
+            </ul>
+            <button type="button" class="see-project d-none">See Project</button>
+          </div>
+          <div class="card project-card p-3 text-light h-100 mb-3">
+            <h3 class="project-card-heading mt-5 pt-5">
+              Professional Art Printing Data
+            </h3>
+            <p class="project-card-description">
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required. has been the industry's standard
+            </p>
+            <ul class="skills d-flex ps-0">
+              <li class="border border-1 px-1 me-2">html</li>
+              <li class="border border-1 px-1 me-2">bootstrap</li>
+              <li class="border border-1 px-1">Ruby</li>
+            </ul>
+            <button type="button" class="see-project d-none">See Project</button>
+          </div>
+          <div class="card project-card p-3 text-light h-100 mb-3">
+            <h3 class="project-card-heading mt-5 pt-5">
+              Professional Art Printing Data
+            </h3>
+            <p class="project-card-description">
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required. has been the industry's standard
+            </p>
+            <ul class="skills d-flex ps-0">
+              <li class="border border-1 px-1 me-2">html</li>
+              <li class="border border-1 px-1 me-2">bootstrap</li>
+              <li class="border border-1 px-1">Ruby</li>
+            </ul>
+            <button type="button" class="see-project d-none">See Project</button>
+          </div>
+          <div class="card project-card p-3 text-light h-100 mb-3">
+            <h3 class="project-card-heading mt-5 pt-5">
+              Professional Art Printing Data
+            </h3>
+            <p class="project-card-description">
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required. has been the industry's standard
+            </p>
+            <ul class="skills d-flex ps-0">
+              <li class="border border-1 px-1 me-2">html</li>
+              <li class="border border-1 px-1 me-2">bootstrap</li>
+              <li class="border border-1 px-1">Ruby</li>
+            </ul>
+            <button type="button" class="see-project d-none">See Project</button>
+          </div>
+          <div class="card project-card p-3 text-light h-100 mb-3">
+            <h3 class="project-card-heading mt-5 pt-5">
+              Professional Art Printing Data
+            </h3>
+            <p class="project-card-description">
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required. has been the industry's standard
+            </p>
+            <ul class="skills d-flex ps-0">
+              <li class="border border-1 px-1 me-2">html</li>
+              <li class="border border-1 px-1 me-2">bootstrap</li>
+              <li class="border border-1 px-1">Ruby</li>
+            </ul>
+            <button class="see-project d-none">See Project</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- about me section-->
+    <div class="container-fluid bg-dark overflow-hidden" id="about-me">
+      <!-- about me text -->
+      <div class="container-fluid ms-5 p-5 about-me-intro border-bottom">
+        <h2 class="text-warning display-3 mt-5">About me</h2>
+        <p class="text-light fs-5 col-4">
+          I can help you build a product , feature or website. Look through some
+          of my work and experience! If you like what you see and have a project
+          you need coded, don’t hesitate to contact me.
+        </p>
+        <button class="btn btn-warning text-dark">Get My Resume</button>
+      </div>
+      <!-- about me skills -->
+      <div class="skills container-fluid">
+        <div class="container d-flex justify-content-between mt-5 mb-5 vw-100">
+          <!-- Languages -->
+          <ul class="text-light nav flex-column fs-5">
+            <li class="navbar-brand h3 fs-3">Language</li>
+            <li>Javascript</li>
+            <li>Ruby</li>
+            <li>Html</li>
+            <li>Css</li>
+          </ul>
+          <!-- frameworks -->
+          <ul class="text-light nav flex-column fs-5">
+            <li class="navbar-brand h3 fs-3">Frameworks</li>
+            <li>Bootstrap</li>
+            <li>Ruby on Rails</li>
+            <li>RSPec</li>
+            <li>CapyBara</li>
+            <li>Selenium</li>
+          </ul>
+          <!-- skills -->
+          <ul class="text-light nav flex-column fs-5">
+            <li class="navbar-brand h3 fs-3">Skills</li>
+            <li>Codekit</li>
+            <li>Github</li>
+            <li>Codepen</li>
+            <li>Gitlab</li>
+            <li>Terminal</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- contact section -->
+    <section class="container my-0 pe-0 py-0 vh-100 d-flex align-items-center" id="contact">
+      <div class="d-flex">
+        <p class="me-5 fs-3 fw-bold col-5">
+          I'm always interested in hearing about new projects, so if you'd like
+          to chat please get in touch.
+        </p>
+        <!-- form -->
+        <form action="https://formspree.io/f/xpzedlbr" method="POST" class="d-flex flex-column flex-fill">
+          <label for="name" class="d-none">Name</label>
+          <input
+            type="text"
+            name="username"
+            id="name"
+            placeholder="Full name"
+            maxlength="30"
+            required
+            class="form-control mb-3 py-3 border-0 border-bottom"
+          />
+          <label for="email" class="d-none">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email address"
+            required
+            class="form-control mb-3 py-3 border-0 border-bottom"
+          />
+          <label for="message" class="d-none">Message</label>
+          <textarea
+            name="message"
+            id="message"
+            placeholder="Enter text here"
+            maxlength="500"
+            required
+            class="form-control mb-3 py-3 border-0 bg-light bg-gradient"
+            rows="5"
+          ></textarea>
+          <button type="submit" class="btn btn-warning col-4">Get in touch</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <section id="footer" class="container-fluid pb-2">
+      <hr>
+      <ul class="nav justify-content-center">
+        <li class="nav-link">
+          <a href="https://github.com/Bennyjoez" target="_blank" rel="noopener">
+            <img src="./images/footer-images/github.svg" alt="github">
+          </a>
+        </li> 
+        <li class="nav-link">
+          <a href="https://www.linkedin.com/in/benson-njuguna-008146242/" target="_blank" rel="noopener">
+            <img src="./images/footer-images/Linkedinicon.svg" alt="Linkedin">
+          </a>
+        </li> 
+        <li class="nav-link">
+          <a href="#" target="_blank" rel="noopener">
+            <img src="./images/footer-images/angelist.svg" alt="angelist">
+          </a>
+        </li> 
+        <li class="nav-link">
+          <a href="https://twitter.com/bennyjoezz" target="_blank" rel="noopener">
+            <img src="./images/footer-images/twitter.svg" alt="twitter">
+          </a>
+        </li> 
+        <li class="nav-link">
+          <a href="#" target="_blank" rel="noopener">
+            <img src="./images/footer-images/medium.svg" alt="medium">
+          </a>
+        </li> 
+      </ul>
+    </section>
+  </body>
+</html>
