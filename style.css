@@ -14,3 +14,18 @@ nav {
   background-repeat: no-repeat;
   background-position: 70vw;
 }
+
+.skills li {
+  list-style: none;
+}
+
+.project-card {
+  background-image: linear-gradient(
+      180.45deg,
+      rgba(38, 38, 38, 0) 0.75%,
+      rgba(38, 38, 38, 0.9) 61.94%
+    ),
+    url(./images/background2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
